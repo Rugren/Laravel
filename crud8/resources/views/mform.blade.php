@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">          
+            <form action="/guardar" method="post" enctype="multipart/form-data" >
+                @csrf
+                <input type="file" name="urlpdf" >
+                <input type="submit" value="subir">
+            </form>
+   
+        </div>
+    </div>
+</div>
